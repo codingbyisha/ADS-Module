@@ -1,0 +1,67 @@
+Problem Statement: Array Operations using a Menu-Driven Program
+Objective:
+Design and implement a Java program that allows the user to perform various operations on an integer array using a menu-driven approach. The program should provide the following functionalities:
+
+Operations to Implement:
+Insert Elements – Allow the user to enter integers into the array.
+
+Traverse (Display) the Array – Print all elements of the array.
+
+Sort in Ascending Order – Sort the array in increasing order.
+
+Sort in Descending Order – Sort the array in decreasing order.
+
+Delete an Element – Remove a specified element from the array (shift remaining elements accordingly).
+
+Replace an Element – Replace an existing element at a given index with a new value.
+
+Find an Element – Search for an element in the array and display its index if found.
+
+Exit – Terminate the program.
+
+Dear, All Solve this problem before 4:10 PM
+[15:45, 25/03/2025] Malkeet Singh Sir CDAC: Problem Statement: Advanced Integer Array Operations using a Menu-Driven Program
+Objective:
+Develop a Java program that provides a menu-driven interface to perform advanced operations on an integer array, including dynamic insertion, sorting, searching, deletion, and statistical analysis. The program should handle user-defined array sizes and operate efficiently.
+
+Advanced Features to Implement:
+Basic Operations:
+Insert Elements – Allow dynamic insertion of elements.
+
+Display Array – Show all elements in the array.
+
+Sort in Ascending Order – Sort the array in increasing order using an efficient algorithm (Merge Sort or Quick Sort).
+
+Sort in Descending Order – Sort the array in decreasing order.
+
+Delete an Element by Value or Index – Remove a specific element or index with proper shifting.
+
+Replace an Element – Replace an element at a given index with a new value.
+
+Find an Element – Search for an element using Binary Search (if sorted) or Linear Search (if unsorted).
+
+Advanced Operations:
+Insert at Specific Index – Allow users to insert an element at a specific index.
+
+Find Maximum and Minimum Values – Display the highest and lowest elements in the array.
+
+Find Sum and Average of Elements – Calculate the sum and average of all elements.
+
+Find the Median of the Array – Compute the median of the sorted array.
+
+Find Mode (Most Frequent Element) – Determine the most frequently occurring element.
+
+Reverse the Array – Reverse the order of elements.
+
+Remove Duplicates – Remove duplicate elements and resize the array dynamically.
+
+Resize the Array Dynamically – Allow the user to increase or decrease the array size while retaining existing elements.
+
+Count Occurrences of an Element – Display how many times a particular number appears in the array.
+
+Subarray Sum – Find a subarray with a given sum (use Kadane’s algorithm for efficiency).
+
+Exit Option:
+Exit the Program – Safely terminate the execution.
+
+Problem Statement-2
