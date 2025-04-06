@@ -1,30 +1,45 @@
-import java.util.*;
+
 class StringReversalRecursion{
 	
+	Character stack[] = new Character[20];
+	int top;
+	
     public static void main(String args[]){
-         
-        String s = "Isha";		 
+        StringReversalRecursion r = new StringReversalRecursion();
 		
-		
-		System.out.println(Rev(s));
+		r.top =-1;
+		 
+        String s = "CDAC Mumbai";		
+		System.out.println(r.Rev(s));
 		
 		
 	}
 	
-	public static String Rev(String s){
+	String Rev(String s){
 		
-		Stack<Character> s1 = new Stack<>();
+		StringReversalRecursion r1 = new StringReversalRecursion();
 		
 		for(int i =0;i<s.length();i++){
-			s1.push(s.charAt(i));
+			r1.push(s.charAt(i));
 		}
 		
-		StringBuilder res = new StringBuilder();
+		String res = "";
 		
 		for(int i=0;i<s.length();i++){
-			res.append(s1.pop());
+			char ch = r1.pop();
+			res = res+ ch;
 		}
-		return res.toString();
+		return res;
+	}
+	
+	void push(char ch){
+		top+=1;
+		stack[top] = ch;
+	}
+	char pop(){
+		char ch = stack[top];
+		top-=1;
+		return ch;
 	}
 	
 }
